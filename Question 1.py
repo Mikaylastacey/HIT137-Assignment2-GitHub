@@ -1,7 +1,7 @@
 def encrypt_char(text, shift1, shift2):
     result = ''
     for char in text:
-        if char.islower():  # Lower case from beginning  =  a-m
+        if char.islower():  # Lower case from beginning  = a-m
             if 'a' <= char <= 'm':
                 shift = shift1 * shift2
                 base = ord('a')
